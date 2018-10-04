@@ -1,6 +1,7 @@
 ---
-templateKey: product-page
-title: Our Coffee11111111
+templateKey: main-page
+language: en
+title: Our Coffee EN
 image: /img/jumbotron.jpg
 heading: What we offer
 description: >-
