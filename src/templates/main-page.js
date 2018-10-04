@@ -9,7 +9,6 @@ import Pricing from '../components/Pricing'
 export const MainPageTemplate = ({
   image,
   title,
-  heading,
   description,
   intro,
   main,
@@ -44,6 +43,7 @@ export const MainPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
+
                   <p>{description}</p>
                 </div>
               </div>
@@ -53,6 +53,7 @@ export const MainPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
+                  <h4>{main.subheading}</h4>
                   <p>{main.description}</p>
                 </div>
               </div>
@@ -117,6 +118,7 @@ MainPageTemplate.propTypes = {
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
+    subheading: PropTypes.string,
     description: PropTypes.string,
     image1: PropTypes.object,
     image2: PropTypes.object,
@@ -179,6 +181,7 @@ export const mainPageQuery = graphql`
         }
         main {
           heading
+          subheading
           description
           image1 {
             alt

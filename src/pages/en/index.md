@@ -1,6 +1,5 @@
 ---
 templateKey: main-page
-language: en
 title: Our Coffee EN
 image: /img/jumbotron.jpg
 heading: What we offer
@@ -46,6 +45,7 @@ intro:
     knowledge to anyone. This is an edit via identity...
 main:
   heading: Great coffee with no compromises
+  subheading: TEST
   description: >
     We hold our coffee to the highest standards from the shrub to the cup.
     That’s why we’re meticulous and transparent about each step of the coffee’s

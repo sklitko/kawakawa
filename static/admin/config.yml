@@ -152,7 +152,6 @@ collections:
             }
   - name: 'en'
     label: 'EN'
-    filter: {field: 'language', value: 'en'}
     files:
       - file: 'src/pages/en/index.md'
         label: 'Main Page EN'
@@ -164,7 +163,6 @@ collections:
               widget: 'hidden',
               default: 'main-page',
             }
-          - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'es']}
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
