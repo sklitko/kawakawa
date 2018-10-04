@@ -20,6 +20,9 @@ const Navbar = () => (
         <Link className="navbar-item" to="/products">
           Products
         </Link>
+        <Link className="navbar-item" to="/en">
+          EN
+        </Link>
       </div>
       <div className="navbar-end">
         <a
