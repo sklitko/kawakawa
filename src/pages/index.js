@@ -79,3 +79,14 @@ export const pageQuery = graphql`
     }
   }
 `
+
+// export const IndexPage = graphql`
+//   query IndexPage($id: String!) {
+//     markdownRemark(id: { eq: $id }) {
+//       html
+//       frontmatter {
+//         title
+//       }
+//     }
+//   }
+// `

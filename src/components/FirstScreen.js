@@ -71,7 +71,6 @@ const FirstScreen = () => (
                 Все что связано с кофе — <strong>кawa</strong> справится с этим.
               </p>
             </div>
-
             <DonwloadLink className={'app-btn mt-5'} />
           </div>
           <div className="col-12">
