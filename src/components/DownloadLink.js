@@ -1,8 +1,8 @@
 import React from 'react'
 import { Picture } from 'react-responsive-picture'
 
-const DownloadLink = () => (
-  <ul>
+const DownloadLink = ({ className }) => (
+  <ul className={className}>
     <li className="mr-3">
       <a href="#">
         <Picture

@@ -72,14 +72,10 @@ const FirstScreen = () => (
               </p>
             </div>
 
-            <ul className=" app-btn mt-5">
-              <DonwloadLink />
-            </ul>
+            <DonwloadLink className={'app-btn mt-5'} />
           </div>
           <div className="col-12">
-            <ul className=" app-btn app-btn-mobile mt-5">
-              <DonwloadLink />
-            </ul>
+            <DonwloadLink className={'app-btn app-btn-mobile mt-5'} />
           </div>
         </div>
       </div>
