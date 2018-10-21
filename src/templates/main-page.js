@@ -9,6 +9,7 @@ import Pricing from '../components/Pricing'
 export const MainPageTemplate = ({
   image,
   title,
+  heading,
   description,
   intro,
   main,
@@ -43,7 +44,6 @@ export const MainPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
-
                   <p>{description}</p>
                 </div>
               </div>
