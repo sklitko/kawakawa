@@ -5,7 +5,7 @@ title: KAWATITLE
 
 firstscreen:
   header: KAWA
-  subheader: SUBHEADER KAWA
-  text: text test
-  hiddentext: hidden text
+  subheader: Покупай кофе с удовольствием!
+  text: кawa – уникальный мобильный магазин для покупки кофе со всего мира. Известные кофейные бренды по лучшей цене, рецепты, приготовления кофе, кофейная карта, ваш персональный бариста, невероятные предсказания.
+  hiddentext: Все что связано с кофе — кawa справится с этим.
 ---

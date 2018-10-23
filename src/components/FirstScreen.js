@@ -1,9 +1,10 @@
 import React from 'react'
+import propTypes from 'prop-types'
 import { Picture } from 'react-responsive-picture'
 import DonwloadLink from '../components/DownloadLink'
 
-const FirstScreen = () => (
-  <div className="full-screenbg lazy" data-src="./images/bg.png">
+const FirstScreenTemplate = ({ header, subheader, text, hiddentext }) => (
+  <div className="full-screenbg lazy" data-src="images/bg.png">
     <div className="inner">
       <div className="content-container">
         <div className="row">
@@ -58,18 +59,11 @@ const FirstScreen = () => (
             />
           </div>
           <div className="col-6 col-sm-7 col-md-7 col-lg-8 offset-xl-1 col-xl-6">
-            <h1 className="title">кawa</h1>
-            <h3 className="subtitle">Покупай кофе с удовольствием!</h3>
+            <h1 className="title">{header}</h1>
+            <h3 className="subtitle">{subheader}</h3>
             <div className="text">
-              <p>
-                <strong>кawa</strong> – уникальный мобильный магазин для покупки
-                кофе со всего мира. Известные кофейные бренды по лучшей цене,
-                рецепты, приготовления кофе, кофейная карта, ваш персональный
-                бариста, невероятные предсказания.
-              </p>
-              <p className="d-none d-sm-inline">
-                Все что связано с кофе — <strong>кawa</strong> справится с этим.
-              </p>
+              <p>{text}</p>
+              <p className="d-none d-sm-inline">{hiddentext}</p>
             </div>
             <DonwloadLink className={'app-btn mt-5'} />
           </div>
@@ -82,4 +76,23 @@ const FirstScreen = () => (
   </div>
 )
 
+const FirstScreen = ({ data }) => {
+  return (
+    <FirstScreenTemplate
+      header={data.header}
+      subheader={data.subheader}
+      text={data.text}
+      hiddentext={data.hiddentext}
+    />
+  )
+}
+
+FirstScreen.propTypes = {
+  data: propTypes.shape({
+    header: propTypes.string,
+    subheader: propTypes.string,
+    text: propTypes.string,
+    hiddentext: propTypes.string
+  })
+}
 export default FirstScreen

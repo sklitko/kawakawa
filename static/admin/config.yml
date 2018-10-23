@@ -265,3 +265,28 @@ collections:
                   },
                 ],
             }
+  - name: 'root'
+    label: 'Main'
+    files:
+      - file: 'src/pages/root/index.md'
+        label: 'Main Page'
+        name: 'root'
+        fields:
+        - {
+            label: 'Template Key',
+            name: 'templateKey',
+            widget: 'hidden',
+            default: 'root-page',
+          }
+        - {
+          label: firstscreen,
+          name: firstscreen,
+          widget: object,
+          fields: 
+            [
+              {lable: header, name: header, widget: string},
+              {lable: subheader, name: subheader, widget: string},
+              {lable: text, name: text, widget: string},
+              {lable: hiddentext, name: hiddentext, widget: string},
+            ]
+        }
