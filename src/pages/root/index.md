@@ -1,11 +1,9 @@
 ---
-templateKey: 'root-page'
-path: /
-title: KAWATITLE
-
+templateKey: root-page
 firstscreen:
-  header: KAWA
+  header: KAWA132
+  hiddentext: hidden text
   subheader: SUBHEADER KAWA
   text: text test
-  hiddentext: hidden text
 ---
+
