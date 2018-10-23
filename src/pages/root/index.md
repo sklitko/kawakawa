@@ -1,8 +1,5 @@
 ---
-templateKey: 'root-page'
-path: /
-title: KAWATITLE
-
+templateKey: root-page
 firstscreen:
   header: KAWA
   subheader: Покупай кофе с удовольствием!
