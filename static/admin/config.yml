@@ -349,3 +349,20 @@ collections:
               }
             ]
         }
+        - {
+          label: thirdscreen,
+          name: thirdscreen,
+          widget: object,
+          fields: [
+            { label: Header, name: header, widget: string },
+            { 
+              label: Accordion, 
+              name: accordion, 
+              widget: list,
+              fields: [
+                { label: Title, name: title, widget: string },
+                { label: Text, name: text, widget: text }
+              ]
+             }
+          ]
+        }
