@@ -284,9 +284,19 @@ collections:
           widget: object,
           fields: 
             [
-              {lable: header, name: header, widget: string},
-              {lable: subheader, name: subheader, widget: string},
-              {lable: text, name: text, widget: string},
-              {lable: hiddentext, name: hiddentext, widget: string},
+              { label: Header, name: header, widget: string },
+              { label: Subheader, name: subheader, widget: string },
+              { label: Text, name: text, widget: text },
+              { label: Hiddentext, name: hiddentext, widget: string },
+            ]
+        }
+        - {
+          label: secondscreen,
+          name: secondscreen,
+          widget: object,
+          fields:
+            [
+              { label: Header, name: header, widget: string },
+              { label: Subheader, name: subheader, widget: string }
             ]
         }
