@@ -297,6 +297,55 @@ collections:
           fields:
             [
               { label: Header, name: header, widget: string },
-              { label: Subheader, name: subheader, widget: string }
+              { label: Subheader, name: subheader, widget: string },
+              { 
+                label: Cards,
+                name: cards,
+                widget: object,
+                fields: [
+                  {
+                    label: First Left Card, name: firstleftcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  },
+                  {
+                    label: Second Left Card, name: secondleftcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  },
+                  {
+                    label: Third Left Card, name: thirdleftcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  },
+                  {
+                    label: First Right Card, name: firstrightcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  },
+                  {
+                    label: Second Right Card, name: secondrightcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  },
+                  {
+                    label: Third Right Card, name: thirdrightcard, widget: object,
+                    fields: [
+                      { label: Card Title, name: cardtitle, widget: string },
+                      { label: Card Text, name: cardtext, widget: text },
+                    ]
+                  }
+                ]
+              }
             ]
         }
