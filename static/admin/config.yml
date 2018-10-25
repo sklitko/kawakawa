@@ -377,7 +377,7 @@ collections:
             { 
               label: List, name: list, widget: list, 
               fields: [
-                { label: Item, name: item, widget: string }
+                { label: List Item, name: listitems, widget: string }
               ]
             },
           ]
