@@ -4,7 +4,7 @@ import { Picture } from 'react-responsive-picture'
 const DownloadLink = ({ className }) => (
   <ul className={className}>
     <li className="mr-3">
-      <a href="#">
+      <a href="google.com">
         <Picture
           sources={[
             {
@@ -21,7 +21,7 @@ const DownloadLink = ({ className }) => (
       </a>
     </li>
     <li className="mr-3">
-      <a href="#">
+      <a href="appstore.com">
         <Picture
           sources={[
             {
@@ -38,7 +38,7 @@ const DownloadLink = ({ className }) => (
       </a>
     </li>
     <li className="mr-3">
-      <a href="#">
+      <a href="youtobe.com">
         <Picture
           sources={[
             {

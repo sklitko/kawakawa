@@ -26,6 +26,7 @@
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-responsive-picture": "^2.1.0",
+    "simple-load-script": "^1.0.2",
     "uuid": "^3.2.1"
   },
   "keywords": [
