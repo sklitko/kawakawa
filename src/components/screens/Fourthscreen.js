@@ -19,7 +19,7 @@ const FourthScreenTemplate = ({ header, subheader, text, list }) => (
             <p className="about-content">{text}</p>
             <ul className="about-list">
               {list.map(item => (
-                <li key={item.listitems}>{item.listitems}</li>
+                <li key={item.listitem}>{item.listitem}</li>
               ))}
             </ul>
           </div>
@@ -27,7 +27,7 @@ const FourthScreenTemplate = ({ header, subheader, text, list }) => (
         <div className="col-lg-5 col-sm-12">
           <div className="about-img">
             <picture>
-              <source srcset="images/4/phone-4_.webp" type="image/webp" />
+              <source srcSet="images/4/phone-4_.webp" type="image/webp" />
               <source
                 srcSet="images/4/phone-4_.webp 1x, images/4/phone-4@2x.webp 2x, images/4/phone-4@3x.webp 3x"
                 type="image/webp"

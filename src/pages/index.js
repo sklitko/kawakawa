@@ -8,8 +8,11 @@ import 'babel-polyfill'
 import Layout from '../components/Layout'
 import FirstScreen from '../components/screens/FirstScreen'
 import SecondScreen from '../components/screens/SecondScreen'
-import ThridScreen from '../components/screens/ThirdScreen'
+import ThirdScreen from '../components/screens/ThirdScreen'
 import FourhtScreen from '../components/screens/Fourthscreen'
+import FifthScreen from '../components/screens/FifthScreen'
+import SixthScreen from '../components/screens/SixthScreen'
+import SevethScreen from '../components/screens/SeventhScreen'
 
 export default class IndexPage extends React.Component {
   async componentDidMount() {
@@ -34,9 +37,9 @@ export default class IndexPage extends React.Component {
     await loadScript(
       '//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'
     )
-    // await loadScript(
-    //   '//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"'
-    // )
+    await loadScript(
+      '//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'
+    )
 
     await loadScript('js/scripts.min.js')
   }
@@ -48,8 +51,11 @@ export default class IndexPage extends React.Component {
       <Layout>
         <FirstScreen data={frontmatter.firstscreen} />
         <SecondScreen data={frontmatter.secondscreen} />
-        <ThridScreen data={frontmatter.thirdscreen} />
+        <ThirdScreen data={frontmatter.thirdscreen} />
         <FourhtScreen data={frontmatter.fourthscreen} />
+        <FifthScreen data={frontmatter.fifthscreen} />
+        <SixthScreen data={frontmatter.sixthscreen} />
+        <SevethScreen data={frontmatter.seventhscreen} />
       </Layout>
     )
   }
@@ -115,7 +121,7 @@ export const pageQuery = graphql`
           subheader
           text
           list {
-            listitems
+            listitem
           }
         }
         fifthscreen {

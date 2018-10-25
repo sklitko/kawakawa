@@ -2,7 +2,7 @@ import React from 'react'
 import propTypes from 'prop-types'
 import Accordion from '../Accordion'
 
-const ThridScreenTemplate = ({ header, accordion }) => (
+const ThirdScreenTemplate = ({ header, accordion }) => (
   <div id="faq-section" className="faq-section sec-spacer">
     <div className="content-container">
       <div className="row">
@@ -38,14 +38,14 @@ const ThridScreenTemplate = ({ header, accordion }) => (
   </div>
 )
 
-const ThridScreen = ({ data }) => {
-  return <ThridScreenTemplate header={data.header} accordion={data.accordion} />
+const ThirdScreen = ({ data }) => {
+  return <ThirdScreenTemplate header={data.header} accordion={data.accordion} />
 }
 
-ThridScreen.propTypes = {
+ThirdScreen.propTypes = {
   data: propTypes.shape({
     header: propTypes.string,
     accordion: propTypes.array
   })
 }
-export default ThridScreen
+export default ThirdScreen
