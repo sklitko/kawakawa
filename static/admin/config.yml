@@ -366,3 +366,47 @@ collections:
              }
           ]
         }
+        - {
+          label: fourthscreen,
+          name: fourthscreen,
+          widget: object,
+          fields: [
+            { label: Header, name: header, widget: string },
+            { label: Subheader, name: subheader, widget: string },
+            { label: Text, name: text, widget: text },
+            { 
+              label: List, name: list, widget: list, 
+              fields: [
+                { label: Item, name: item, widget: string }
+              ]
+            },
+          ]
+        }
+        - { 
+          label: fifthscreen,
+          name: fifthscreen,
+          widget: object,
+          fields: [
+            { label: Header, name: header, widget: string },
+          ]
+        }
+        - { 
+          label: sixthscreen,
+          name: sixthscreen,
+          widget: object,
+          fields: [
+            { label: Header, name: header, widget: string },
+            { label: Subheader, name: subheader, widget: string },
+          ]
+        }
+        - { 
+          label: seventhscreen,
+          name: seventhscreen,
+          widget: object,
+          fields: [
+            { label: Header, name: header, widget: string },
+            { label: Subheader, name: subheader, widget: string },
+            { label: Text, name: text, widget: string },
+          ]
+        }
+        
