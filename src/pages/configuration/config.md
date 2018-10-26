@@ -1,7 +1,6 @@
 ---
-templateKey: config-page
 sociallinks:
-  facebook: 'https://facebook/'
+  facebook: 'https://facebook/sdd'
   instagram: 'https://instagram.com/'
   twitter: 'https://twitter.com/'
   youtube: 'https://www.youtube.com'
@@ -10,3 +9,4 @@ downloadlinks:
   playmarker: 'https://play.google.com/store'
   youtubevidel: 'https://www.youtube.com/watch?v=NjP4i2cKDRE'
 ---
+
