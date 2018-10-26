@@ -1,0 +1,3 @@
+---
+templateKey: config-page
+---

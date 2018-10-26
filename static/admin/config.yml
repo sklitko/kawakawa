@@ -312,9 +312,8 @@ collections:
           ]
         }
   
-  - name: 'cofig'
+  - name: 'cofiguration'
     label: 'Configuration'
-    create: true
     files:
       - file: 'src/pages/configuration/config.md'
         label: 'Links'
