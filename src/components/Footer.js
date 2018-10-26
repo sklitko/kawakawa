@@ -10,7 +10,7 @@ const Footer = () => (
             <div className="col-5 col-md-6">
               <div className="copyright">
                 <p>
-                  © 2018 <a href="#">KAWA</a> <br className="d-md-none" />
+                  © 2018 <a href="/">KAWA</a> <br className="d-md-none" />
                   All Rights Reserved.
                 </p>
               </div>
