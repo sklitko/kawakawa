@@ -1,4 +1,5 @@
 ---
+templateKey: config-page
 sociallinks:
   facebook: 'https://facebook/'
   instagram: 'https://instagram.com/'
@@ -9,4 +10,3 @@ downloadlinks:
   playmarker: 'https://play.google.com/store'
   youtubevidel: 'https://www.youtube.com/watch?v=NjP4i2cKDRE'
 ---
-

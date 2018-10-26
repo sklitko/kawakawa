@@ -314,6 +314,7 @@ collections:
   
   - name: 'cofiguration'
     label: 'Configuration'
+    name: 'config'
     files:
       - file: 'src/pages/configuration/config.md'
         label: 'Links'
