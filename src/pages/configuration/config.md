@@ -1,3 +1,4 @@
 ---
-templateKey: config-page
+social links:
+  facebook: 'https://facebook/'
 ---
