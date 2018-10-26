@@ -1,6 +1,7 @@
 import React from 'react'
 import propTypes from 'prop-types'
 import DonwloadLink from '../DownloadLink'
+import SocialIcons from '../SocialIcons'
 
 const FirstScreenTemplate = ({ header, subheader, text, hiddentext }) => (
   <div className="full-screenbg lazy" data-src="images/bg.png">
@@ -9,32 +10,7 @@ const FirstScreenTemplate = ({ header, subheader, text, hiddentext }) => (
         <div className="row">
           <div className="d-none d-xl-block col-xl-1">
             <div className="social-icons social-icons-desktop">
-              <ul>
-                <li>
-                  <a href="кawa.app">
-                    <i className="icon2-fb" />
-                    <span className="animated slideInRight">кawa.app</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="кawa.app">
-                    <i className="icon2-tw" />
-                    <span className="animated slideInRight">кawa.app</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="кawa.app">
-                    <i className="icon2-yt" />
-                    <span className=" animated slideInRight">кawa.app</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="кawa.app">
-                    <i className="icon2-insta" />
-                    <span className=" animated slideInRight">кawa.app</span>
-                  </a>
-                </li>
-              </ul>
+              <SocialIcons slideText={true} />
             </div>
           </div>
           <div className="col-6 col-sm-5 col-md-5 col-lg-4 col-xl-3">

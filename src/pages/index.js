@@ -19,9 +19,7 @@ export default class IndexPage extends React.Component {
     await loadScript('libs/modernizr-2.8.3.min.js')
     await loadScript('libs/modernizr-custom.js')
     await loadScript('//code.jquery.com/jquery-3.3.1.min.js')
-    await loadScript(
-      '//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js'
-    )
+    await loadScript('libs/jquery.mobile.custom.min.js')
     await loadScript(
       '//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js'
     )
