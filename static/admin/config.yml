@@ -318,7 +318,13 @@ collections:
       - file: 'src/pages/configuration/config.md'
         label: 'Links'
         name: 'links'
-        fields: 
+        fields:
+          - {
+            label: 'Template Key',
+            name: 'templateKey',
+            widget: 'hidden',
+            default: 'config-page',
+          }
           - {
             label: social links,
             name: sociallinks,
