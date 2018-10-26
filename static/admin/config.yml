@@ -320,13 +320,25 @@ collections:
         name: 'links'
         fields: 
           - {
-            label: social,
+            label: social links,
             name: sociallinks,
             widget: object,
             fields: [
-              { label: Facebook, name: facebook, widget: string }
+              { label: Facebook, name: facebook, widget: string },
+              { label: Instagram, name: instagram, widget: string },
+              { label: YouTube, name: youtube, widget: string },
+              { label: Twitter, name: twitter, widget: string }
             ]
-           
+          }
+          - {
+            label: download links,
+            name: downloadlinks,
+            widget: object,
+            fields: [
+              { label: Google Play Market, name: playmarker, widget: string },
+              { label: Apple AppStore, name: appstore, widget: string },
+              { label: YouTube Video, name: youtubevidel, widget: string }
+            ]
           }
   
   - name: 'en'
