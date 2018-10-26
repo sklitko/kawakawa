@@ -321,7 +321,7 @@ collections:
         fields: 
           - {
             label: social,
-            name: social links,
+            name: sociallinks,
             widget: object,
             fields: [
               { label: Facebook, name: facebook, widget: string }
