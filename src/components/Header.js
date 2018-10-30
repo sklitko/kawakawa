@@ -20,11 +20,11 @@ const Header = ({ blog, supports }) => (
               <Picture
                 sources={[
                   {
-                    srcSet: 'images/logo/kawa.webp',
+                    srcSet: '/images/logo/kawa.webp',
                     type: 'image/webp'
                   },
                   {
-                    src: 'images/logo/kawa.svg'
+                    src: '/images/logo/kawa.svg'
                   }
                 ]}
               />
