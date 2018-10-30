@@ -4,7 +4,7 @@ import DonwloadLink from '../DownloadLink'
 import SocialIcons from '../SocialIcons'
 
 const FirstScreenTemplate = ({ header, subheader, text, hiddentext }) => (
-  <div className="full-screenbg lazy" data-src="images/bg.png">
+  <div className="full-screenbg lazy" data-src="/images/bg.png">
     <div className="inner">
       <div className="content-container">
         <div className="row">
