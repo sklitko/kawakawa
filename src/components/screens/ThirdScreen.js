@@ -20,16 +20,16 @@ const ThirdScreenTemplate = ({ header, accordion }) => (
         <div className="col-lg-6 col-12">
           <div className="faq-img">
             <picture>
-              <source srcSet="images/3/phone-3_.webp" type="image/webp" />
+              <source srcSet="/images/3/phone-3_.webp" type="image/webp" />
               <source
-                srcSet="images/3/phone-3_.webp 1x, images/3/phone-3@2x.webp 2x, images/3/phone-3@3x.webp 3x"
+                srcSet="/images/3/phone-3_.webp 1x, images/3/phone-3@2x.webp 2x, images/3/phone-3@3x.webp 3x"
                 type="image/webp"
               />
               <source
-                srcSet="images/3/phone-3_.png 1x, images/3/phone-3@3x.png 2x, images/3/phone-3@3x.png 3x"
+                srcSet="/images/3/phone-3_.png 1x, images/3/phone-3@3x.png 2x, images/3/phone-3@3x.png 3x"
                 type="image/png"
               />
-              <img srcSet="images/3/phone-3_.png" alt="kawa phone faq" />
+              <img srcSet="/images/3/phone-3_.png" alt="kawa phone faq" />
             </picture>
           </div>
         </div>

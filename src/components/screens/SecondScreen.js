@@ -23,7 +23,7 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/cart.png"
+                srcSet="/images/icons/cart.png"
                 alt="kawa cart"
                 className="img-fluid"
               />
@@ -36,12 +36,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
           </div>
           <div
             className="features-service text-right"
-            data-img="./images/2/my_addition_coffee_scan.png"
-            data-img-webp="./images/2/my_addition_coffee_scan.webp"
+            data-img="/images/2/my_addition_coffee_scan.png"
+            data-img-webp="/images/2/my_addition_coffee_scan.webp"
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/barcode.png"
+                srcSet="/images/icons/barcode.png"
                 alt="kawa barcode scanner"
                 className="img-fluid"
               />
@@ -53,12 +53,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
           </div>
           <div
             className="features-service text-right"
-            data-img="./images/2/my-coffee.png"
-            data-img-webp="./images/2/my-coffee.webp"
+            data-img="/images/2/my-coffee.png"
+            data-img-webp="/images/2/my-coffee.webp"
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/coffee-beans.png"
+                srcSet="/images/icons/coffee-beans.png"
                 alt="kawa coffee card"
                 className="img-fluid"
               />
@@ -72,12 +72,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
         <div className="col-lg-4 col-md-12 text-center feture-mid-images">
           <picture>
             <source
-              srcSet="./images/2/catalog.webp"
+              srcSet="/images/2/catalog.webp"
               type="image/webp"
               id="featureImageWebp"
             />
             <img
-              srcSet="images/2/catalog.png"
+              srcSet="/images/2/catalog.png"
               alt="kawa catalog"
               id="featureImage"
             />
@@ -86,12 +86,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
         <div className="col-lg-4 col-md-12">
           <div
             className="features-service text-left"
-            data-img="./images/2/recipes_catalog.png"
-            data-img-webp="./images/2/recipes_catalog.webp"
+            data-img="/images/2/recipes_catalog.png"
+            data-img-webp="/images/2/recipes_catalog.webp"
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/menu.png"
+                srcSet="/images/icons/menu.png"
                 alt="kawa menu"
                 className="img-fluid"
               />
@@ -103,12 +103,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
           </div>
           <div
             className="features-service text-left"
-            data-img="./images/2/recipes_search_milk-1.png"
-            data-img-webp="./images/2/recipes_search_milk-1.webp"
+            data-img="/images/2/recipes_search_milk-1.png"
+            data-img-webp="/images/2/recipes_search_milk-1.webp"
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/search.png"
+                srcSet="/images/icons/search.png"
                 alt="kawa search"
                 className="img-fluid"
               />
@@ -120,12 +120,12 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
           </div>
           <div
             className="features-service text-left"
-            data-img="./images/2/divination.png"
-            data-img-webp="./images/2/divination.webp"
+            data-img="/images/2/divination.png"
+            data-img-webp="/images/2/divination.webp"
           >
             <div className="features-icon">
               <img
-                srcSet="./images/icons/cup.png"
+                srcSet="/images/icons/cup.png"
                 alt="kawa divination"
                 className="img-fluid"
               />

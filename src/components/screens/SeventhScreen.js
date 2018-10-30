@@ -14,7 +14,7 @@ const SeventhScreenTemplate = ({ header, subheader, text }) => (
         <div className="col-md-4 col-sm-12 text-center">
           <a href="/" className="contact-link">
             <img
-              srcSet="images/icons/viber.png"
+              srcSet="/images/icons/viber.png"
               alt="kawa viber"
               className="contact-link__thumb img-fluid"
             />
@@ -26,7 +26,7 @@ const SeventhScreenTemplate = ({ header, subheader, text }) => (
         <div className="col-md-4 col-sm-12 text-center">
           <a href="/" className="contact-link">
             <img
-              srcSet="images/icons/messenger.png"
+              srcSet="/images/icons/messenger.png"
               alt="kawa messenger"
               className="contact-link__thumb"
             />
@@ -38,7 +38,7 @@ const SeventhScreenTemplate = ({ header, subheader, text }) => (
         <div className="col-md-4 col-sm-12 text-center">
           <a href="/" className="contact-link">
             <img
-              srcSet="images/icons/telegram.png"
+              srcSet="/images/icons/telegram.png"
               alt="kawa telegram"
               className="contact-link__thumb"
             />
@@ -57,15 +57,15 @@ const SeventhScreenTemplate = ({ header, subheader, text }) => (
         <div className="col-sm-12">
           <ul className="contact-phone__list">
             <li className="contact-phone__item">
-              <img srcSet="images/icons/vodafone.png" className="img-fluid" />
+              <img srcSet="/images/icons/vodafone.png" className="img-fluid" />
               (099) 455 65 65
             </li>
             <li className="contact-phone__item">
-              <img srcSet="images/icons/kyivstar.png" className="img-fluid" />
+              <img srcSet="/images/icons/kyivstar.png" className="img-fluid" />
               (067) 455 65 65
             </li>
             <li className="contact-phone__item">
-              <img srcSet="images/icons/lifecell.png" className="img-fluid" />
+              <img srcSet="/images/icons/lifecell.png" className="img-fluid" />
               (093) 455 65 65
             </li>
           </ul>

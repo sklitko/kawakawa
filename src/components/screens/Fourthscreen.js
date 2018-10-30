@@ -27,16 +27,16 @@ const FourthScreenTemplate = ({ header, subheader, text, list }) => (
         <div className="col-lg-5 col-sm-12">
           <div className="about-img">
             <picture>
-              <source srcSet="images/4/phone-4_.webp" type="image/webp" />
+              <source srcSet="/images/4/phone-4_.webp" type="image/webp" />
               <source
-                srcSet="images/4/phone-4_.webp 1x, images/4/phone-4@2x.webp 2x, images/4/phone-4@3x.webp 3x"
+                srcSet="/images/4/phone-4_.webp 1x, images/4/phone-4@2x.webp 2x, images/4/phone-4@3x.webp 3x"
                 type="image/webp"
               />
               <source
-                srcSet="images/4/phone-4_.png 1x, images/4/phone-4@2x.png 2x, images/4/phone-4@3x.png 3x"
+                srcSet="/images/4/phone-4_.png 1x, images/4/phone-4@2x.png 2x, images/4/phone-4@3x.png 3x"
                 type="image/png"
               />
-              <img srcSet="images/4/phone-4_.png" alt="kawa phone faq" />
+              <img srcSet="/images/4/phone-4_.png" alt="kawa phone faq" />
             </picture>
           </div>
         </div>

@@ -5,7 +5,7 @@ const Sidebar = ({ blog, supports }) => (
   <div className="sidebar">
     <div className="sidebar__header">
       <img
-        srcSet="images/logo_menu.png"
+        srcSet="/images/logo_menu.png"
         alt="kawa menu logo"
         className="img-fluid"
       />

@@ -36,13 +36,13 @@ const FifthScreenTemplate = ({ header }) => (
             data-md-device-dots="false"
           >
             <div className="single-gallery">
-              <a href="images/5/dostavka-u-oplata.png" className="popup-quote">
+              <a href="/images/5/dostavka-u-oplata.png" className="popup-quote">
                 <picture>
                   <source
-                    srcSet="images/5/dostavka-u-oplata.webp"
+                    srcSet="/images/5/dostavka-u-oplata.webp"
                     type="image/webp"
                   />
-                  <img srcSet="images/5/dostavka-u-oplata.png" alt="Gallery" />
+                  <img srcSet="/images/5/dostavka-u-oplata.png" alt="Gallery" />
                 </picture>
               </a>
             </div>
@@ -53,11 +53,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/drugie-tovari-(karta-tovara).webp"
+                    srcSet="/images/5/drugie-tovari-(karta-tovara).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/drugie-tovari-(karta-tovara).png"
+                    srcSet="/images/5/drugie-tovari-(karta-tovara).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -70,11 +70,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/drugie-tovari-(karta-tovara-pop-up).webp"
+                    srcSet="/images/5/drugie-tovari-(karta-tovara-pop-up).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/drugie-tovari-(karta-tovara-pop-up).png"
+                    srcSet="/images/5/drugie-tovari-(karta-tovara-pop-up).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -87,11 +87,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/gotovim-po-recepty(spravka).webp"
+                    srcSet="/images/5/gotovim-po-recepty(spravka).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/gotovim-po-recepty(spravka).png"
+                    srcSet="/images/5/gotovim-po-recepty(spravka).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -104,11 +104,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/karta-tovara-(s-otzivom).webp"
+                    srcSet="/images/5/karta-tovara-(s-otzivom).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/karta-tovara-(s-otzivom).png"
+                    srcSet="/images/5/karta-tovara-(s-otzivom).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -117,8 +117,8 @@ const FifthScreenTemplate = ({ header }) => (
             <div className="single-gallery">
               <a href="images/5/korzina.png" className="popup-quote">
                 <picture>
-                  <source srcSet="images/5/korzina.webp" type="image/webp" />
-                  <img srcSet="images/5/korzina.png" alt="Gallery" />
+                  <source srcSet="/images/5/korzina.webp" type="image/webp" />
+                  <img srcSet="/images/5/korzina.png" alt="Gallery" />
                 </picture>
               </a>
             </div>
@@ -129,11 +129,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/li4nue-dannue(net-dati-rogdeni9).webp"
+                    srcSet="/images/5/li4nue-dannue(net-dati-rogdeni9).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/li4nue-dannue(net-dati-rogdeni9).png"
+                    srcSet="/images/5/li4nue-dannue(net-dati-rogdeni9).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -146,11 +146,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/love-recepti-(prigotovlenie).webp"
+                    srcSet="/images/5/love-recepti-(prigotovlenie).webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/love-recepti-(prigotovlenie).png"
+                    srcSet="/images/5/love-recepti-(prigotovlenie).png"
                     alt="Gallery"
                   />
                 </picture>
@@ -159,8 +159,8 @@ const FifthScreenTemplate = ({ header }) => (
             <div className="single-gallery">
               <a href="images/5/menu.png" className="popup-quote">
                 <picture>
-                  <source srcSet="images/5/menu.webp" type="image/webp" />
-                  <img srcSet="images/5/menu.png" alt="Gallery" />
+                  <source srcSet="/images/5/menu.webp" type="image/webp" />
+                  <img srcSet="/images/5/menu.png" alt="Gallery" />
                 </picture>
               </a>
             </div>
@@ -171,11 +171,11 @@ const FifthScreenTemplate = ({ header }) => (
               >
                 <picture>
                   <source
-                    srcSet="images/5/ustori9-pokypok-catalog-2.webp"
+                    srcSet="/images/5/ustori9-pokypok-catalog-2.webp"
                     type="image/webp"
                   />
                   <img
-                    srcSet="images/5/ustori9-pokypok-catalog-2.png"
+                    srcSet="/images/5/ustori9-pokypok-catalog-2.png"
                     alt="Gallery"
                   />
                 </picture>
