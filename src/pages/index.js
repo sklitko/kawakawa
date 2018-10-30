@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     const { frontmatter } = data.markdownRemark
     return (
-      <Layout>
+      <Layout blog={frontmatter.blog} supports={frontmatter.supports}>
         <FirstScreen data={frontmatter.firstscreen} />
         <SecondScreen data={frontmatter.secondscreen} />
         <ThirdScreen data={frontmatter.thirdscreen} />
@@ -71,6 +71,8 @@ export const pageQuery = graphql`
   query IndexQuery {
     markdownRemark(frontmatter: { templateKey: { eq: "root-page" } }) {
       frontmatter {
+        blog
+        supports
         firstscreen {
           header
           subheader

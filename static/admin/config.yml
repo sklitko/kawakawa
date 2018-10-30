@@ -37,6 +37,16 @@ collections:
             default: 'root-page',
           }
         - {
+            label: 'blog',
+            name: 'blog',
+            widget: 'hidden',
+          }
+        - {
+            label: 'supports',
+            name: 'supports',
+            widget: 'hidden',
+          }
+        - {
           label: firstscreen,
           name: firstscreen,
           widget: object,
@@ -179,6 +189,16 @@ collections:
             name: 'templateKey',
             widget: 'hidden',
             default: 'main-page',
+          }
+        - {
+            label: 'blog',
+            name: 'blog',
+            widget: 'hidden',
+          }
+        - {
+            label: 'supports',
+            name: 'supports',
+            widget: 'hidden',
           }
         - {
           label: firstscreen,
@@ -359,6 +379,16 @@ collections:
             name: 'templateKey',
             widget: 'hidden',
             default: 'main-page',
+          }
+        - {
+            label: 'blog',
+            name: 'blog',
+            widget: 'hidden',
+          }
+        - {
+            label: 'supports',
+            name: 'supports',
+            widget: 'hidden',
           }
         - {
           label: firstscreen,

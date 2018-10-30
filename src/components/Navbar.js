@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Navbar = () => (
+const Navbar = ({ blog, supports }) => (
   <nav className="navbar">
     <ul className="main-menu">
       <li>
-        <Link to="/blog">Блог</Link>
+        <Link to="/blog">{blog}</Link>
       </li>
       <li>
-        <Link to="#contact-section2">Поддержка</Link>
+        <Link to="#contact-section2">{supports}</Link>
       </li>
       <li className="language">
         <ul className="language__list">

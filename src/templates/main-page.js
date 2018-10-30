@@ -10,11 +10,14 @@ import FifthScreen from '../components/screens/FifthScreen'
 import SixthScreen from '../components/screens/SixthScreen'
 import SevethScreen from '../components/screens/SeventhScreen'
 
+import Header from '../components/Header'
+
 const MainPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
+      <Header blog={frontmatter.blog} supports={frontmatter.supports} />
       <FirstScreen data={frontmatter.firstscreen} />
       <SecondScreen data={frontmatter.secondscreen} />
       <ThirdScreen data={frontmatter.thirdscreen} />
@@ -40,6 +43,8 @@ export const mainPageQuery = graphql`
   query MainPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        blog
+        supports
         firstscreen {
           header
           subheader
