@@ -15,7 +15,7 @@ const SixthScreenTemplate = ({ header, subheader }) => (
             <li>
               <a href="google.com">
                 <img
-                  src="images/icons/icon_googleplay_footer.png"
+                  srcSet="/images/icons/icon_googleplay_footer.png"
                   alt="Google store"
                 />
               </a>
@@ -23,7 +23,7 @@ const SixthScreenTemplate = ({ header, subheader }) => (
             <li>
               <a href="apple.com">
                 <img
-                  src="images/icons/icon_appstore_footer.png"
+                  srcSet="/images/icons/icon_appstore_footer.png"
                   alt="Google store"
                 />
               </a>

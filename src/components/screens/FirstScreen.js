@@ -16,11 +16,11 @@ const FirstScreenTemplate = ({ header, subheader, text, hiddentext }) => (
           <div className="col-6 col-sm-5 col-md-5 col-lg-4 col-xl-3">
             <picture>
               <source
-                srcSet="/images/1/phone-1.webp 1x, images/1/phone-1@2x.webp 2x, images/1/phone-1@3x.webp 3x"
+                srcSet="/images/1/phone-1.webp 1x, /images/1/phone-1@2x.webp 2x, /images/1/phone-1@3x.webp 3x"
                 type="image/webp"
               />
               <source
-                srcSet="/images/1/phone-1.png 1x, images/1/phone-1@2x.png 2x, images/1/phone-1@3x.png 3x"
+                srcSet="/images/1/phone-1.png 1x, /images/1/phone-1@2x.png 2x, /images/1/phone-1@3x.png 3x"
                 type="image/png"
               />
               <img

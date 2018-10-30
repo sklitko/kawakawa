@@ -18,8 +18,8 @@ const SecondScreenTemplate = ({ header, subheader, cards }) => (
         <div className="col-lg-4 col-md-12">
           <div
             className="features-service text-right"
-            data-img="./images/2/catalog.png"
-            data-img-webp="./images/2/catalog.webp"
+            data-img="/images/2/catalog.png"
+            data-img-webp="/images/2/catalog.webp"
           >
             <div className="features-icon">
               <img
