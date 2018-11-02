@@ -31,6 +31,7 @@ if (locat.pathname == '/') {
     location.href = '/'
   } else if (lang == 'ru' && locat.pathname != '/ru') {
     location.href = '/ru'
+    console.log('переход1')
   } else if (lang == 'en' && locat.pathname != '/en') {
     location.href = '/en'
   }
@@ -53,6 +54,7 @@ if (!navigator.cookieEnabled || lang != null) {
   oLanguage.UALanguage == 'ru' ||
   oLanguage.UALanguage == 'ru-RU'
 ) {
+  console.log('переход1')
   document.cookie = 'lg=1'
   location.href = '/ru'
 } else {
