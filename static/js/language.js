@@ -27,10 +27,10 @@ var oLanguage = new LanguageInfo(),
   lang = getCookie('lang')
 
 if (locat.pathname == '/') {
-  if (lang == 'ru' && locat.pathname != '/ru') {
-    location.href = '/ru'
-  } else if (lang == 'ua' && locat.pathname != '/') {
+  if (lang == 'ua' && locat.pathname != '/') {
     location.href = '/'
+  } else if (lang == 'ru' && locat.pathname != '/ru') {
+    location.href = '/ru'
   } else if (lang == 'en' && locat.pathname != '/en') {
     location.href = '/en'
   }
