@@ -26,7 +26,7 @@ var oLanguage = new LanguageInfo(),
   locat = window.location,
   lang = getCookie('lang')
 if (!navigator.cookieEnabled || lang != null) {
-} else if (locat.pathname != '/') {
+} else if (locat.href != $SITE_HREF) {
   document.cookie = 'lg=1'
 } else if (
   oLanguage.userLanguage == 'uk' ||
