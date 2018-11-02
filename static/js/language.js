@@ -25,6 +25,7 @@ var oLanguage = new LanguageInfo(),
   lg = getCookie('lg'),
   locat = window.location,
   lang = getCookie('lang')
+console.log(lang)
 
 if (locat.pathname == '/') {
   if (lang == 'ua' && locat.pathname != '/') {
