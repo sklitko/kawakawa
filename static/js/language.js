@@ -39,8 +39,7 @@ if (locat.pathname == '/') {
 }
 
 if (!navigator.cookieEnabled || lang != null) {
-} else if (locat.href != $SITE_HREF) {
-  document.cookie = 'lg=1'
+} else if (locat.pathname != '/') {
 } else if (
   (oLanguage.userLanguage == 'uk' ||
     oLanguage.userLanguage == 'uk-UA' ||
@@ -48,7 +47,6 @@ if (!navigator.cookieEnabled || lang != null) {
     oLanguage.UALanguage == 'uk-UA') &&
   lang === null
 ) {
-  document.cookie = 'lg=1'
   location.href = '/'
 } else if (
   (oLanguage.userLanguage == 'ru' ||
@@ -57,36 +55,27 @@ if (!navigator.cookieEnabled || lang != null) {
     oLanguage.UALanguage == 'ru-RU') &&
   lang === null
 ) {
-  console.log('переход1')
-  document.cookie = 'lg=1'
   location.href = '/ru'
 } else {
-  document.cookie = 'lg=1'
   location.href = '/en'
 }
 
 $('.sidebar__link-lang--ru').on('click', function() {
-  document.cookie = 'lang=ru'
-  document.cookie = 'lg=1'
+  document.cookie = 'lang=ru; path=/'
 })
 $('.sidebar__link-lang--ua').on('click', function() {
-  document.cookie = 'lang=ua'
-  document.cookie = 'lg=1'
+  document.cookie = 'lang=ua; path=/'
 })
 $('.sidebar__link-lang--en').on('click', function() {
-  document.cookie = 'lang=en'
-  document.cookie = 'lg=1'
+  document.cookie = 'lang=en; path=/'
 })
 
 $('.icon2-ru').on('click', function() {
   document.cookie = 'lang=ru'
-  document.cookie = 'lg=1'
 })
 $('.icon2-ua').on('click', function() {
   document.cookie = 'lang=ua'
-  document.cookie = 'lg=1'
 })
 $('.icon2-en').on('click', function() {
   document.cookie = 'lang=en'
-  document.cookie = 'lg=1'
 })
