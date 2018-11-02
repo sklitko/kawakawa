@@ -71,11 +71,11 @@ $('.sidebar__link-lang--en').on('click', function() {
 })
 
 $('.icon2-ru').on('click', function() {
-  document.cookie = 'lang=ru'
+  document.cookie = 'lang=ru; path=/'
 })
 $('.icon2-ua').on('click', function() {
-  document.cookie = 'lang=ua'
+  document.cookie = 'lang=ua; path=/'
 })
 $('.icon2-en').on('click', function() {
-  document.cookie = 'lang=en'
+  document.cookie = 'lang=en; path=/'
 })
