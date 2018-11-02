@@ -38,6 +38,7 @@ export default class IndexPage extends React.Component {
     await loadScript(
       '//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'
     )
+    await loadScript('/js/language.js')
     await loadScript('/js/scripts.min.js')
   }
   render() {
