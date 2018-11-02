@@ -25,6 +25,17 @@ var oLanguage = new LanguageInfo(),
   lg = getCookie('lg'),
   locat = window.location,
   lang = getCookie('lang')
+
+if (locat.pathname == '/') {
+  if (lang == 'ru' && locat.pathname != '/ru') {
+    location.href = '/ru'
+  } else if (lang == 'ua' && locat.pathname != '/') {
+    location.href = '/'
+  } else if (lang == 'en' && locat.pathname != '/en') {
+    location.href = '/en'
+  }
+}
+
 if (!navigator.cookieEnabled || lang != null) {
 } else if (locat.href != $SITE_HREF) {
   document.cookie = 'lg=1'
@@ -47,16 +58,6 @@ if (!navigator.cookieEnabled || lang != null) {
 } else {
   document.cookie = 'lg=1'
   location.href = '/en'
-}
-
-if (locat.pathname == '/') {
-  if (lang == 'ru' && locat.pathname != '/ru') {
-    location.href = '/ru'
-  } else if (lang == 'ua' && locat.pathname != '/') {
-    location.href = '/'
-  } else if (lang == 'en' && locat.pathname != '/en') {
-    location.href = '/en'
-  }
 }
 
 $('.sidebar__link-lang--ru').on('click', function() {
