@@ -41,18 +41,20 @@ if (!navigator.cookieEnabled || lang != null) {
 } else if (locat.href != $SITE_HREF) {
   document.cookie = 'lg=1'
 } else if (
-  oLanguage.userLanguage == 'uk' ||
-  oLanguage.userLanguage == 'uk-UA' ||
-  oLanguage.UALanguage == 'uk' ||
-  oLanguage.UALanguage == 'uk-UA'
+  (oLanguage.userLanguage == 'uk' ||
+    oLanguage.userLanguage == 'uk-UA' ||
+    oLanguage.UALanguage == 'uk' ||
+    oLanguage.UALanguage == 'uk-UA') &&
+  lang === null
 ) {
   document.cookie = 'lg=1'
   location.href = '/'
 } else if (
-  oLanguage.userLanguage == 'ru' ||
-  oLanguage.userLanguage == 'ru-RU' ||
-  oLanguage.UALanguage == 'ru' ||
-  oLanguage.UALanguage == 'ru-RU'
+  (oLanguage.userLanguage == 'ru' ||
+    oLanguage.userLanguage == 'ru-RU' ||
+    oLanguage.UALanguage == 'ru' ||
+    oLanguage.UALanguage == 'ru-RU') &&
+  lang === null
 ) {
   console.log('переход1')
   document.cookie = 'lg=1'
