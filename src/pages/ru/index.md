@@ -1,7 +1,7 @@
 ---
 templateKey: main-page
-blog: блог ru
-supports: поддержка ru
+blog: Блог
+supports: Поддержка
 firstscreen:
   header: KAWA RU
   hiddentext: Все что связано с кофе — кawa справится с этим.
