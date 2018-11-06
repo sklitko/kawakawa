@@ -9,17 +9,17 @@ import ScrollUp from '../components/ScrollUp'
 import '../../static/css/orange.css'
 import '../../static/css/main.min.css'
 
-const TemplateWrapper = ({ children, blog, supports }) => (
-  <div>
+const TemplateWrapper = ({ children, linksTitle }) => (
+  <React.Fragment>
     <Helmet title="KAWA" />
     <div className="overlay-mobile" />
     <div>
-      <Header blog={blog} supports={supports} />
+      <Header linksTitle={linksTitle} />
       <div>{children}</div>
       <Footer />
       <ScrollUp />
     </div>
-    <Sidebar blog={blog} supports={supports} />
-  </div>
+    <Sidebar linksTitle={linksTitle} />
+  </React.Fragment>
 )
 export default TemplateWrapper

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Sidebar = ({ blog, supports }) => (
+const Sidebar = ({ linksTitle }) => (
   <div className="sidebar">
     <div className="sidebar__header">
       <img
@@ -17,13 +17,13 @@ const Sidebar = ({ blog, supports }) => (
       <li className="sidebar__item">
         <Link to="/ru" className="sidebar__link-lang--ru" />
         <Link to="/blog" className="sidebar__link">
-          {blog}
+          {linksTitle.blog}
         </Link>
       </li>
       <li className="sidebar__item">
         <Link to="/en" className="sidebar__link-lang--en" />
         <Link to="#contact-section2" className="sidebar__link">
-          {supports}
+          {linksTitle.supports}
         </Link>
       </li>
     </ul>

@@ -14,8 +14,6 @@ import FifthScreen from '../components/screens/FifthScreen'
 import SixthScreen from '../components/screens/SixthScreen'
 import SevethScreen from '../components/screens/SeventhScreen'
 
-import Header from '../components/Header'
-
 export default class MainPage extends React.Component {
   async componentDidMount() {
     await loadScript('/libs/modernizr-2.8.3.min.js')
@@ -48,8 +46,13 @@ export default class MainPage extends React.Component {
     const { data } = this.props
     const { frontmatter } = data.markdownRemark
 
+    const linksTitle = {
+      blog: frontmatter.blog,
+      supports: frontmatter.supports
+    }
+
     return (
-      <Layout blog={frontmatter.blog} supports={frontmatter.supports}>
+      <Layout linksTitle={linksTitle}>
         <FirstScreen data={frontmatter.firstscreen} />
         <SecondScreen data={frontmatter.secondscreen} />
         <ThirdScreen data={frontmatter.thirdscreen} />

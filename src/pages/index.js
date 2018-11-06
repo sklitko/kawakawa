@@ -44,8 +44,13 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const { frontmatter } = data.markdownRemark
+    const linksTitle = {
+      blog: frontmatter.blog,
+      supports: frontmatter.supports
+    }
+
     return (
-      <Layout blog={frontmatter.blog} supports={frontmatter.supports}>
+      <Layout linksTitle={linksTitle}>
         <FirstScreen data={frontmatter.firstscreen} />
         <SecondScreen data={frontmatter.secondscreen} />
         <ThirdScreen data={frontmatter.thirdscreen} />

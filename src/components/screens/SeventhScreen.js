@@ -57,15 +57,27 @@ const SeventhScreenTemplate = ({ header, subheader, text }) => (
         <div className="col-sm-12">
           <ul className="contact-phone__list">
             <li className="contact-phone__item">
-              <img srcSet="/images/icons/vodafone.png" className="img-fluid" />
+              <img
+                srcSet="/images/icons/vodafone.png"
+                className="img-fluid"
+                alt="vodafone"
+              />
               (099) 455 65 65
             </li>
             <li className="contact-phone__item">
-              <img srcSet="/images/icons/kyivstar.png" className="img-fluid" />
+              <img
+                srcSet="/images/icons/kyivstar.png"
+                className="img-fluid"
+                alt="kyivstar"
+              />
               (067) 455 65 65
             </li>
             <li className="contact-phone__item">
-              <img srcSet="/images/icons/lifecell.png" className="img-fluid" />
+              <img
+                srcSet="/images/icons/lifecell.png"
+                className="img-fluid"
+                alt="lifecell"
+              />
               (093) 455 65 65
             </li>
           </ul>

@@ -3,7 +3,7 @@ import { Picture } from 'react-responsive-picture'
 import Navbar from '../components/Navbar'
 import { Link } from 'gatsby'
 
-const Header = ({ blog, supports }) => (
+const Header = ({ linksTitle }) => (
   <header>
     <div className="content-container">
       <div className="row">
@@ -32,7 +32,7 @@ const Header = ({ blog, supports }) => (
           </div>
         </div>
         <div className="col-4 col-md-9 d-none d-md-block mainmenu">
-          <Navbar blog={blog} supports={supports} />
+          <Navbar linksTitle={linksTitle} />
         </div>
       </div>
     </div>
