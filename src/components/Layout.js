@@ -14,6 +14,14 @@ const TemplateWrapper = ({ children, linksTitle, seo }) => (
     <Helmet>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
+      <meta property="og:image" content="/images/favicon/favicon.png" />
+      <link rel="icon" href="/images/favicon/favicon.png" />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/images/favicon/apple-touch-icon-180x180.png"
+      />
+      <meta name="theme-color" content="#000" />
     </Helmet>
     <div className="overlay-mobile" />
     <div>
