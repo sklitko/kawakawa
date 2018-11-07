@@ -145,7 +145,7 @@ collections:
             { 
               label: List, name: list, widget: list, 
               fields: [
-                { label: List Item, name: listitems, widget: string }
+                { label: List Item, name: listitem, widget: string }
               ]
             },
           ]
@@ -308,7 +308,7 @@ collections:
             { 
               label: List, name: list, widget: list, 
               fields: [
-                { label: List Item, name: listitems, widget: string }
+                { label: List Item, name: listitem, widget: string }
               ]
             },
           ]
@@ -507,7 +507,7 @@ collections:
             { 
               label: List, name: list, widget: list, 
               fields: [
-                { label: List Item, name: listitems, widget: string }
+                { label: List Item, name: listitem, widget: string }
               ]
             },
           ]
