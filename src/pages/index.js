@@ -50,7 +50,7 @@ export default class IndexPage extends React.Component {
     }
 
     return (
-      <Layout linksTitle={linksTitle}>
+      <Layout linksTitle={linksTitle} seo={frontmatter.seo}>
         <FirstScreen data={frontmatter.firstscreen} />
         <SecondScreen data={frontmatter.secondscreen} />
         <ThirdScreen data={frontmatter.thirdscreen} />
@@ -139,6 +139,10 @@ export const pageQuery = graphql`
           header
           subheader
           text
+        }
+        seo {
+          title
+          description
         }
       }
     }

@@ -9,9 +9,12 @@ import ScrollUp from '../components/ScrollUp'
 import '../../static/css/orange.css'
 import '../../static/css/main.min.css'
 
-const TemplateWrapper = ({ children, linksTitle }) => (
+const TemplateWrapper = ({ children, linksTitle, seo }) => (
   <React.Fragment>
-    <Helmet title="KAWA" />
+    <Helmet>
+      <title>{seo.title}</title>
+      <meta name="description" content={seo.description} />
+    </Helmet>
     <div className="overlay-mobile" />
     <div>
       <Header linksTitle={linksTitle} />
