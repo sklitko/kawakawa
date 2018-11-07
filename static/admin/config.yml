@@ -177,6 +177,15 @@ collections:
             { label: Text, name: text, widget: string },
           ]
         }
+        - {
+          label: seo,
+          name: seo,
+          widget: object,
+          fields: [
+            { label: Title, name: title, widget: string },
+            { label: Description, name: description, widget: string }
+          ]
+        }
   - name: 'ru'
     label: 'RU'
     files:
@@ -329,6 +338,15 @@ collections:
             { label: Header, name: header, widget: string },
             { label: Subheader, name: subheader, widget: string },
             { label: Text, name: text, widget: string },
+          ]
+        }
+        - {
+          label: seo,
+          name: seo,
+          widget: object,
+          fields: [
+            { label: Title, name: title, widget: string },
+            { label: Description, name: description, widget: string }
           ]
         }
   
@@ -519,6 +537,15 @@ collections:
             { label: Header, name: header, widget: string },
             { label: Subheader, name: subheader, widget: string },
             { label: Text, name: text, widget: string },
+          ]
+        }
+        - {
+          label: seo,
+          name: seo,
+          widget: object,
+          fields: [
+            { label: Title, name: title, widget: string },
+            { label: Description, name: description, widget: string }
           ]
         }
         
