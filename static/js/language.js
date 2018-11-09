@@ -1,15 +1,7 @@
 function LanguageInfo() {
   var n = navigator
-  this.UALanguage = n.language
-    ? n.language
-    : n.browserLanguage
-      ? n.browserLanguage
-      : null
-  this.userLanguage = n.userLanguage
-    ? n.userLanguage
-    : n.systemLanguage
-      ? systemLanguage
-      : null
+  this.UALanguage = n.language ? n.language : n.browserLanguage ? n.browserLanguage : null
+  this.userLanguage = n.userLanguage ? n.userLanguage : n.systemLanguage ? systemLanguage : null
 }
 
 function getCookie(lg) {
@@ -25,7 +17,7 @@ var oLanguage = new LanguageInfo(),
   lg = getCookie('lg'),
   locat = window.location,
   lang = getCookie('lang')
-console.log(lang)
+// console.log(lang)
 
 if (locat.pathname == '/') {
   if (lang == 'ua' && locat.pathname != '/') {
@@ -41,18 +33,12 @@ if (locat.pathname == '/') {
 if (!navigator.cookieEnabled || lang != null) {
 } else if (locat.pathname != '/') {
 } else if (
-  (oLanguage.userLanguage == 'uk' ||
-    oLanguage.userLanguage == 'uk-UA' ||
-    oLanguage.UALanguage == 'uk' ||
-    oLanguage.UALanguage == 'uk-UA') &&
+  (oLanguage.userLanguage == 'uk' || oLanguage.userLanguage == 'uk-UA' || oLanguage.UALanguage == 'uk' || oLanguage.UALanguage == 'uk-UA') &&
   lang === null
 ) {
   location.href = '/'
 } else if (
-  (oLanguage.userLanguage == 'ru' ||
-    oLanguage.userLanguage == 'ru-RU' ||
-    oLanguage.UALanguage == 'ru' ||
-    oLanguage.UALanguage == 'ru-RU') &&
+  (oLanguage.userLanguage == 'ru' || oLanguage.userLanguage == 'ru-RU' || oLanguage.UALanguage == 'ru' || oLanguage.UALanguage == 'ru-RU') &&
   lang === null
 ) {
   location.href = '/ru'
