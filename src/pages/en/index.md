@@ -3,95 +3,112 @@ templateKey: main-page
 blog: Blog
 supports: Support
 firstscreen:
-  header: KAWA EN
-  hiddentext: Все что связано с кофе — кawa справится с этим.
-  subheader: Покупай кофе с удовольствием!
+  header: KAWA
+  hiddentext: If anything somehow is related with coffee - kawa will take care of it.
+  subheader: Buy coffee with pleasure!
   text: >-
-    кawa – уникальный мобильный магазин для покупки кофе со всего мира.
-    Известные кофейные бренды по лучшей цене, рецепты, приготовления кофе,
-    кофейная карта, ваш персональный бариста, невероятные предсказания.
+    kawa – is a unique online store for buying coffee from around the world.
+    Well-known coffee brands at the best price, recipes for making coffee, a
+    coffee card, your personal barista, incredible predictions.
 secondscreen:
   cards:
     firstleftcard:
       cardtext: >-
-        Продажа кофе на любой вкус. Легкий поиск, лучшая цена, рейтинг кофе,
-        отзывы покупателей, удобная оплата.
-      cardtitle: Магазин кофе
+        Coffee sales for every taste. Easy search, best price, coffee rating,
+        customer reviews, easy payment.
+      cardtitle: Coffee store
     firstrightcard:
       cardtext: >-
-        Каталог рецептов приготовления кофе из разных стран мира. Холодный,
-        горячий кофе, кофе с алкоголем.
-      cardtitle: Рецепты приготовления
+        The list of recipes for coffee making all around the world. Cold brewed,
+        hot coffee, coffee with alcohol flavors.
+      cardtitle: Recipes of coffee
     secondleftcard:
       cardtext: >-
-        Сканируйте штрих-код и узнайте все о продукте. Отзывы покупателей
-        помогут определить Ваш выбор.
-      cardtitle: Штрих-код сканер
+        Scan the barcode and explore the product. Customers feedback will help
+        to make your choice.
+      cardtitle: Barcode scanner
     secondrightcard:
       cardtext: >-
-        Выбирайте ингредиенты в своем холодильнике, приложение кawa предложит
-        лучший рецепт в соответствии с Вашим выбором.
-      cardtitle: Готовим по рецепту
+        Choose the type of the desired drink and available ingredients, the kawa
+        App will offer the best recipe according to your choice.
+      cardtitle: Cooking with a recipe
     thirdleftcard:
       cardtext: >-
-        Меняйте характеристики кофе в соответствии с Вашим вкусом и подберите
-        марку, от которой Вы будете в восторге
-      cardtitle: Кофейная карта
+        Change the coffee features according your taste and choose your favorite
+        brand.
+      cardtitle: Coffee card
     thirdrightcard:
       cardtext: >-
-        Выпейте чашку кофе и загляните в будущее с помощью ритуала гадания на
-        кофейной гуще.
-      cardtitle: Гадание
-  header: Потрясающие возможности
+        Drink a cup of coffee and look into the future with the help ofthe
+        ritual of guessing on the coffee grounds.
+      cardtitle: Divination
+  header: ' Amazing Opportunities'
   subheader: >-
-    Получайте удовольствие от покупки кофе с приложением кawa. Будьте всегда в
-    курсе лучших предложений от кофейных брендов. Узнайте больше о мире кофе.
+    Enjoy the purchase of coffee with the kawa App. Be always aware with the
+    best offers from coffee brands. Learn more about the world of coffee.
 thirdscreen:
   accordion:
     - text: >-
-        Оплата товара осуществляется на условиях предоплаты в национальной
-        валюте. Оплатить можно картами Visa, Master Card, Privat24, Google Pay,
-        Apple Pay, Master Pass. Для предприятий и организаций - оплата по
-        безналичному расчету с выставлением счета на E-mail и последующей
-        выдачей всех необходимых документов.
-      title: Как оплатить?
+        Payment for the goods is carried out on the basis of prepayment in
+        national currency.
+
+        You can pay with Visa, Mastercard, Privat24, Google Pay, Masterpass. For
+        enterprises and organizations - payment by bank transfer with invoicing
+        to e-mail and subsequent issuance of all necessary documents.
+      title: How to pay?
     - text: >-
-        Доставка осуществляется в любой населенный пункт Украины, компаниями
-        «Нова Пошта» и «Укрпошта». Срок доставки 1-3 дня с момента передачи
-        товара в логистическую компанию. Способы доставки: самовывоз из
-        отделения и курьерская доставка по адресу. Стоимость доставки
-        интересующего Вас товара, Вы можете уточнить при оформлении заказа или
-        на странице товара, предварительно указав город, в который необходима
-        доставка.
-      title: Куда и как осуществляется доставка?
+        Delivery is carried out in any locality of Ukraine with the companies
+        like "Nova Posta" and "Ukrposta". The delivery time is 1-3 days from the
+        moment of goods transfer to the logistics company. Ways of delivery:
+        pickup from the office and courier delivery to the address. You can
+        specify the delivery cost of the product at the time of placing order or
+        on the goods page by indicating the city where you need the delivery.
+      title: Where and how is delivery carried out?
     - text: >-
-        Трудно определиться с выбором кофе, стоя перед витриной магазина?
-        Узнайте всё о кофе, просто отсканировав штрих-код на пачке. Узнайте цену
-        на кофе в интернет магазине. Покупайте кофе в мобильном приложении
-        Читайте отзывы других людей. Поделитесь своим мнением с другими.
-        Помогите людям сделать правильный выбор.
-      title: Зачем использовать сканер штрих-кодов?
-  header: Часто задаваемые вопросы
+        Is it difficult to decide which coffee to buy, standing in front of the
+        shop window? Learn all about coffee, simply by scanning the barcode on
+        the pack. Find out the price of coffee in the online store. Buy coffee
+        in kawa App. Read the reviews of other people. Share your opinion with
+        others. Help people make the right choice.
+      title: Why use a barcode scanner?
+    - text: >-
+        A coffee card is a diagram of the coffee taste. It gives a complete
+        presentation of the selected product, displays the variety, roasting and
+        its taste characteristics, as well as recommendations on the preparation
+        method.
+      title: What is a coffee card?
+    - text: >-
+        If the desired type of coffee is not in our catalog, scan the barcode on
+        the bundle or take a picture of the pack, fill out the form. and then
+        send it to us, we will examine this coffee and add it to our catalog.
+        Share your opinion if you treat yourself as a coffee lover.
+      title: If the brand of coffee is not in the application directory?
+    - text: >-
+        Divination is the interpretation of drawings and symbols in the coffee
+        grounds left in a drunk cup of freshly brewed coffee. You can get a
+        prediction only once a day. To prepare for ritual of divination - go
+        through a virtual lesson.
+      title: What is divination?
+  header: Frequently Asked Questions
 fourthscreen:
-  header: Что Вам это даст
+  header: What you will get?
   list:
-    - listitem: Эксклюзивный дизайн
-    - listitem: Основные функции доступны без регистрации
-    - listitem: Удобный интерфейс заказа и оплаты
-    - listitem: Контроль за статусом заказа в личном кабинете
-    - listitem: Энциклопедия кофейных брендов и рецептов
-    - listitem: Отсутствие рекламы
-    - listitem: Видеообзоры о кофе
-    - listitem: Отсутствие платного контента
+    - listitem: Exclusive design
+    - listitem: Basic functions are available without filling your personal data
+    - listitem: User-friendly order and payment interface
+    - listitem: Control your order status in personal account
+    - listitem: Encyclopedia of coffee brands and recipes
+    - listitem: No advertising
+    - listitem: Coffee video reviews
+    - listitem: No paid content
   subheader: >-
-    Установите приложение кawa из Google Play или Apple AppStore. Сделайте
-    первую покупку, и каждая следующая покупка будет сделана в одно касание.
+    Install kawa app from Google Play or Apple AppStore. Make the first
+    purchase, and each next purchase will be amde in one touch.
   text: >-
-    Используйте возможности своего смартфона с приложением кawa, быстро находите
-    информацию о товаре с помощью фотокамеры, оплачивайте покупки с помощью
-    электронных платежных систем Google Pay или Apple Pay, подберите кофе по
-    своему вкусу с помощью интерактивной кофейной карты. Экономьте свое время и
-    деньги.
+    Use the capabilities of your smartphone with kawa app, quickly find
+    information about the goods using the camera, pay for purchases using
+    electronic payment systems Google Pay or Apple Pay, choose coffee for your
+    taste with help of an interactive coffee card. Save your time and money.
 fifthscreen:
   header: Скриншоты приложения
 sixthscreen:
@@ -107,3 +124,4 @@ seo:
   description: KAWA EN DESCR
   title: KAWA EN TITLE
 ---
+
