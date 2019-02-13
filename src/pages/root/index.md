@@ -15,7 +15,7 @@ secondscreen:
     firstleftcard:
       cardtext: >-
         Продаж кави, легкий пошук, краща ціна, рейтинг кави, думки споживачів,
-        зручна форма оплати.
+        зручна оплата.
       cardtitle: Магазин кавы
     firstrightcard:
       cardtext: >-
