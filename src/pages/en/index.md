@@ -4,12 +4,12 @@ blog: Blog
 supports: Support
 firstscreen:
   header: KAWA
-  hiddentext: If anything somehow is related with coffee - kawa will take care of it.
+  hiddentext: If anything somehow is related with coffee – kawa will take care of it.
   subheader: Buy coffee with pleasure!
   text: >-
     kawa – is a unique online store for buying coffee from around the world.
     Well-known coffee brands at the best price, recipes for making coffee, a
-    coffee card, your personal barista, incredible predictions.
+    coffee card, incredible predictions.
 secondscreen:
   cards:
     firstleftcard:
@@ -19,8 +19,8 @@ secondscreen:
       cardtitle: Coffee store
     firstrightcard:
       cardtext: >-
-        The list of recipes for coffee making all around the world. Cold brewed,
-        hot coffee, coffee with alcohol flavors.
+        The list of recipes for coffee making all around the world. Cold, hot
+        coffee, coffee with alcohol.
       cardtitle: Recipes of coffee
     secondleftcard:
       cardtext: >-
@@ -30,7 +30,7 @@ secondscreen:
     secondrightcard:
       cardtext: >-
         Choose the type of the desired drink and available ingredients, the kawa
-        App will offer the best recipe according to your choice.
+        App will offer the best recipe.
       cardtitle: Cooking with a recipe
     thirdleftcard:
       cardtext: >-
