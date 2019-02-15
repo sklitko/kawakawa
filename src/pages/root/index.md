@@ -120,6 +120,6 @@ seventhscreen:
     телефонами:
 seo:
   description: KAWA UA DESCRIPTION
-  title: KAWA UA
+  title: кawa
 ---
 
