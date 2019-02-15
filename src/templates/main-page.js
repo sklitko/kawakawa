@@ -51,7 +51,6 @@ export default class MainPage extends React.Component {
           <link rel="icon" href="/images/favicon/favicon.png" />
           <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png" />
           <meta name="theme-color" content="#000" />
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet"></link>
         </Helmet>
         <Header linksTitle={linksTitle} />
         <FirstScreen data={frontmatter.firstscreen} />
