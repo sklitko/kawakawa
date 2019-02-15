@@ -42,7 +42,7 @@ secondscreen:
         Drink a cup of coffee and look into the future with the help ofthe
         ritual of guessing on the coffee grounds.
       cardtitle: Divination
-  header: ' Amazing Opportunities'
+  header: ' Awesome Features'
   subheader: >-
     Enjoy the purchase of coffee with the kawa App. Be always aware with the
     best offers from coffee brands. Learn more about the world of coffee.
@@ -110,16 +110,16 @@ fourthscreen:
     electronic payment systems Google Pay or Apple Pay, choose coffee for your
     taste with help of an interactive coffee card. Save your time and money.
 fifthscreen:
-  header: Скриншоты приложения
+  header: App Screenshots
 sixthscreen:
-  header: Загрузить приложение
-  subheader: Загружайте приложение в удобном для Вас маркете
+  header: Download App
+  subheader: Download the application in a different markets.
 seventhscreen:
-  header: Контакты
-  subheader: Общаемся в удобных для вас месседжерах
+  header: Contacts
+  subheader: We communicate in convenient for you messengers
   text: >-
-    Наш контакт центр с радостью ответить на Ваши вопросы с 9:00 до 19:00 по
-    телефонам:
+    Our contact center is happy to answer your questions from 9:00 to 19:00 by
+    phone:
 seo:
   description: KAWA EN DESCR
   title: KAWA EN TITLE
