@@ -3,7 +3,7 @@ templateKey: root-page
 blog: Блог
 supports: Підтримка
 firstscreen:
-  header: кawa
+  header: KAWA
   hiddentext: 'Все, що пов’язане з кавою – kawa справиться з цим.'
   subheader: Купуй каву з задоволенням!
   text: >
