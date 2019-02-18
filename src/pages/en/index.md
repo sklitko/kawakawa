@@ -39,8 +39,8 @@ secondscreen:
       cardtitle: Coffee card
     thirdrightcard:
       cardtext: >-
-        Drink a cup of coffee and look into the future with the help ofthe
-        ritual of guessing on the coffee grounds.
+        Drink a cup of coffee and look into the future with the help of the
+        ritual of divination on the coffee grounds.
       cardtitle: Divination
   header: ' Awesome Features'
   subheader: >-
